@@ -14,7 +14,7 @@ def generate_launch_description():
             executable='map_saver_cli',
             name='map_saver_cli',
             arguments=['-f', filename],
-            parameters=[{'save_map_timeout':10000.0,
+            parameters=[{'save_map_timeout':1000.0,
                          'free_thresh_default': 0.5,
                          'occupied_thresh_default': 0.5}]
             )
