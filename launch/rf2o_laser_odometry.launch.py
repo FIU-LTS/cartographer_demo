@@ -27,7 +27,7 @@ def generate_launch_description():
               'use_sim_time': False,
             }],
             remappings=[
-              ('scan_cloud', '/points'),
+              ('scan', '/scan'),
               ('imu', '/imu'),
               ('odom', '/icp/odometry'),
             ],
